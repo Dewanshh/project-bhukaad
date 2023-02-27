@@ -4,7 +4,7 @@ import RestaurantName from "./RestaurantName";
 
 function Card(props) {
     return(
-        <div>
+        <div className="card">
             <RestaurantImg url={props.url}/>
             <RestaurantName name={props.name}/>
             <gotoIcon />

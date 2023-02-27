@@ -1,4 +1,4 @@
-/* * {
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -14,7 +14,7 @@
   }
   
   header {
-    background-color: #f5ba13;
+    background-color: #fa012e;
     margin: auto -16px;
     padding: 16px 32px;
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
@@ -24,6 +24,7 @@
     color: #fff;
     font-family: "McLaren", cursive;
     font-weight: 200;
+    text-align: center;
   }
   
   footer {
@@ -37,7 +38,8 @@
   footer p {
     color: #ccc;
   }
-  .note {
+
+  .card {
     background: #fff;
     border-radius: 7px;
     box-shadow: 0 2px 5px #ccc;
@@ -46,14 +48,17 @@
     margin: 16px;
     float: left;
   }
-  .note h1 {
+
+  .restName{
     font-size: 1.1em;
+    text-align: center;
     margin-bottom: 6px;
   }
-  .note p {
+
+  /* .note p {
     font-size: 1.1em;
     margin-bottom: 10px;
     white-space: pre-wrap;
     word-wrap: break-word;
-  }
-   */
+  } */
+  
