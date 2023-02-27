@@ -49,11 +49,22 @@
     float: left;
   }
 
-  .restName{
+  .rest-name{
     font-size: 1.1em;
     text-align: center;
     margin-bottom: 6px;
   }
+
+  .countdown-message {
+    margin: 4em;
+    font-family: "McLaren", cursive;
+  }
+
+  .countdown-message h1{
+    text-align: center;
+  }
+
+
 
   /* .note p {
     font-size: 1.1em;
