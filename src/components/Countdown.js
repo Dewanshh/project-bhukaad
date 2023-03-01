@@ -3,7 +3,8 @@ import React, {useState} from "react";
 
 
 function Countdown() {
-    let time = new Date().toLocaleTimeString();
+    let time = new Date().toLocaleTimeString();   
+
     const [currTime, checkTime] = useState(time);
 
     function getTime() {
